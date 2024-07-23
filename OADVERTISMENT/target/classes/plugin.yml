@@ -1,0 +1,20 @@
+name: OADVERTISMENT
+version: '1.0-SNAPSHOT'
+main: org.ozaiii.oADVERTISMENT.OADVERTISMENT
+api-version: '1.16'
+
+commands:
+  reklam:
+    description: Reklam komutu
+    usage: /<command> <mesaj>
+    permission: reklam.use
+    permission-message: "Bu komutu kullanma izniniz yok."
+
+  rreload:
+    description: "Config dosyasını yeniden yükler"
+    usage: /<command>
+
+permissions:
+  reklam.use:
+    description: Reklam komutunu kullanma izni
+    default: true

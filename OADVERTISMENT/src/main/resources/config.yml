@@ -1,0 +1,98 @@
+# Cooldown süreleri (saniye cinsinden)
+global_cooldown: 120  # Global cooldown süresi (2 dakika = 120 saniye)
+cooldown_time: 21600  # Cooldown süresi (6 saat = 21600 saniye)
+
+# Reklam mesajının maksimum uzunluğu
+max_message_length: 200  # Mesajın maksimum uzunluğu (karakter cinsinden)
+
+# Reklam komutu için gereken minimum miktar
+advertisment:
+  amount: 500  # Reklam vermek için gereken miktar (örneğin, 500 para birimi)
+  sound: "ENTITY_PLAYER_LEVELUP"  # Çalınacak sesin adı
+  sound_volume: 1.0  # Sesin hacmi (0.0 - 1.0)
+  sound_pitch: 1.0  # Sesin tonu (0.5 - 2.0)
+  title: "Reklamınız Yayınlandı!"  # Ekranın ortasında gösterilecek başlık
+  subtitle: "Reklam veren: %player%"  # Ekranın ortasında gösterilecek alt başlık (oyuncu ismi eklenecek)
+
+# Mesajlar
+messages:
+  only_players: "&cBu komutu yalnızca oyuncular kullanabilir."
+  cooldown: "&cBu komutu tekrar kullanmak için {time} saniye beklemelisiniz."
+  insufficient_funds: "&cBu işlemi gerçekleştirmek için yeterli paranız yok. Gereken miktar: {amount}."
+  invalid_message: "&cMesajınız çok uzun veya boş. Maksimum uzunluk: {max_length} karakter."
+  advertisement_prefix: "&a[Reklam] &f"  # Mesaj ön eki, renk kodları içerir
+  success: "&aReklamınız başarıyla gönderildi!"
+  discordEmbedTitle: "BURASI-DISCORD-EMBED-BASLIGI" # Discord embed başlığı
+  discordEmbedDesc: "BURASI-DISCORD-EMBED-acıklaması" # Discord embed açıklaması
+
+webhooks:
+  giveaways: "your-discord-webhook-url"
+  imageurl: "your-image-url"
+  embedColor: 16711680  # Embed renk kodu (örnek: kırmızı)
+  sendwebhooks: true  # Webhook gönderilsin mi?
+
+# EmbedColor Kodları
+# RED: 16711680
+# GREEN: 65280
+# BLUE: 255
+# YELLOW: 16776960
+# ORANGE: 16753920
+# PURPLE: 8388736
+# PINK: 16738740
+# CYAN: 65535
+# MAGENTA: 16711935
+# LIME: 65280
+# TEAL: 32896
+# AQUA: 65535
+# LAVENDER: 16751052
+# BROWN: 10824234
+# MAROON: 8388608
+# NAVY: 128
+# OLIVE: 8421376
+# SILVER: 12632256
+# GRAY: 8421504
+# BLACK: 0
+# WHITE: 16777215
+# GOLD: 16766720
+# SILVER2: 12632256
+# GRAY2: 10526880
+# CHARCOAL: 2631720
+# NAVY_BLUE: 128
+# ROYAL_BLUE: 4286945
+# MEDIUM_BLUE: 527355
+# SKY_BLUE: 8900331
+# CYAN2: 65535
+# TEAL2: 32768
+
+# Ses isimleri ve açıklamaları:
+# ENTITY_PLAYER_LEVELUP: Oyuncunun seviye atladığında çalan ses.
+# ENTITY_EXPERIENCE_ORB_PICKUP: Deneyim küresi alındığında çalan ses.
+# ENTITY_ITEM_PICKUP: Bir öğe alındığında çalan ses.
+# BLOCK_NOTE_BLOCK_HARP: Nota bloğunda harf sesi.
+# BLOCK_NOTE_BLOCK_BASS: Nota bloğunda bas sesi.
+# BLOCK_NOTE_BLOCK_SNARE: Nota bloğunda snare sesi.
+# BLOCK_NOTE_BLOCK_HAT: Nota bloğunda şapka sesi.
+# BLOCK_NOTE_BLOCK_BELL: Nota bloğunda çan sesi.
+# BLOCK_NOTE_BLOCK_GUITAR: Nota bloğunda gitar sesi.
+# BLOCK_NOTE_BLOCK_FLUTE: Nota bloğunda flüt sesi.
+# BLOCK_NOTE_BLOCK_XYLOPHONE: Nota bloğunda ksilofon sesi.
+# BLOCK_NOTE_BLOCK_CHIME: Nota bloğunda zilin sesi.
+# BLOCK_NOTE_BLOCK_COW_BELL: Nota bloğunda inek zili sesi.
+# BLOCK_NOTE_BLOCK_DIDGERIDOO: Nota bloğunda didgeridoo sesi.
+# BLOCK_NOTE_BLOCK_BIT: Nota bloğunda bit sesi.
+# BLOCK_NOTE_BLOCK_BASS_DRUM: Nota bloğunda bas davulu sesi.
+# ENTITY_CREEPER_PRIMED: Patlayan creeper sesi.
+# ENTITY_ENDER_DRAGON_DEATH: Ender Dragon'ın ölümü sırasında ses.
+# ENTITY_ENDER_DRAGON_HURT: Ender Dragon'ın yara aldığında çıkardığı ses.
+# ENTITY_WITHER_SPAWN: Wither yaratıldığında çalan ses.
+# ENTITY_WITHER_DEATH: Wither'ın ölümü sırasında ses.
+# ENTITY_WITHER_HURT: Wither yara aldığında çalan ses.
+# ENTITY_PLAYER_ATTACK_SWEEP: Oyuncunun süpürme saldırısı sırasında çalan ses.
+# ENTITY_PLAYER_ATTACK_CRIT: Oyuncunun kritik vuruş yaparken çalan ses.
+# ENTITY_PLAYER_ATTACK_NODAMAGE: Oyuncunun bir düşmanı vuruşu ama hasar vermediğinde çalan ses.
+# BLOCK_ANVIL_USE: Demirci masasında bir şey yaparken çalan ses.
+# BLOCK_ANVIL_LAND: Demirci masasının üzerine bir şey düştüğünde çalan ses.
+# BLOCK_ANVIL_DESTROY: Demirci masası yok edilirken çalan ses.
+# BLOCK_ANVIL_FALL: Demirci masasının yere düşerken çalan ses.
+# BLOCK_ANVIL_HIT: Demirci masasına vurulduğunda çalan ses.
+# BLOCK_ENCHANTMENT_TABLE_USE: Büyü masası kullanıldığında çalan ses.

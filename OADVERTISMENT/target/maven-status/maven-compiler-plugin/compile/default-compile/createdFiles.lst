@@ -1,0 +1,6 @@
+org\ozaiii\oADVERTISMENT\Commands\ReklamCommand.class
+org\ozaiii\oADVERTISMENT\Managers\ConfigManager.class
+org\ozaiii\oADVERTISMENT\Managers\CooldownManager.class
+org\ozaiii\oADVERTISMENT\OADVERTISMENT.class
+org\ozaiii\oADVERTISMENT\utils\DiscordEmbedSender.class
+org\ozaiii\oADVERTISMENT\Commands\ReloadCommand.class
